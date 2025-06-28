@@ -194,7 +194,7 @@ L'application est spécialement adaptée au contexte médical algérien :
 - 💰 Devise en Dinars Algériens (DA)
 - 📱 Intégration WhatsApp populaire
 
-## 🤝 Contribution
+ 🤝 Contribution
 
 Les contributions sont les bienvenues ! Pour contribuer :
 
@@ -211,7 +211,7 @@ Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 ## 📞 Support
 
 Pour toute question ou support :
-- 📧 Email : support@neurodesktop.dz
+- 📧 Email : benaboudroqia1@gmail.com
 - 🐛 Issues : [GitHub Issues](https://github.com/votre-username/neurodesktop/issues)
 - 📖 Documentation : [Wiki du projet](https://github.com/votre-username/neurodesktop/wiki)
 
