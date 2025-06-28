@@ -1,0 +1,119 @@
+.patient-dashboard {
+  padding: 20px 0;
+}
+
+.patient-header {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.patient-header h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.patient-header p {
+  color: #666;
+  font-size: 18px;
+}
+
+.measurement-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.measurement-item {
+  padding: 15px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.measurement-date {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.measurement-values {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 8px;
+}
+
+.measurement-values span {
+  font-size: 14px;
+  color: #666;
+}
+
+.measurement-status {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.measurement-status.normal {
+  color: #28a745;
+}
+
+.measurement-status.anormal {
+  color: #dc3545;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+}
+
+.stat-item {
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+.stat-number {
+  display: block;
+  font-size: 24px;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 5px;
+}
+
+.stat-label {
+  color: #666;
+  font-size: 12px;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.action-buttons .btn {
+  flex: 1;
+  min-width: 200px;
+}
+
+@media (max-width: 768px) {
+  .patient-header h1 {
+    font-size: 24px;
+  }
+  
+  .measurement-values {
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .action-buttons {
+    flex-direction: column;
+  }
+  
+  .action-buttons .btn {
+    min-width: auto;
+  }
+} 
